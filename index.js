@@ -98,7 +98,7 @@ function displaymovie(movie)
     const mainContainer = document.createElement("div");
     
     mainContainer.classList.add("container");
-    for(let i=1;i<movie.result.length;i++) {
+    for(let i=1;i<=movie.result.length;i++) {
         let rating_data = movie.result[i];
         const movie_data=document.createElement("div");
         movie_data.classList.add("my_data");
